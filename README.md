@@ -5,7 +5,7 @@ Amqplib wrapper
 
 For send script : 
 
-var test = require('./index');
+var test = require('diagonal-tech-amqplib-wrapper');
 
 test.send('localhost', 'tasks',{
     'id' : 122,
